@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="primary_color">#FF6200EE</color>
+    <color name="primary_dark">#FF3700B3</color>
+    <color name="primary_light">#FFBB86FC</color>
+    
+    <!-- Secondary Colors -->
+    <color name="secondary_color">#FF03DAC5</color>
+    <color name="secondary_dark">#FF018786</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#FF000000</color>
+    <color name="text_secondary">#FF666666</color>
+    <color name="text_tertiary">#FF999999</color>
+    
+    <!-- Background Colors -->
+    <color name="background_primary">#FFFFFFFF</color>
+    <color name="background_secondary">#FFF5F5F5</color>
+    
+    <!-- LivePerson Brand Colors (Optional) -->
+    <color name="liveperson_orange">#FF5722</color>
+    <color name="liveperson_blue">#2196F3</color>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!--
+        Set this to true to allow backup of application data via adb backup.
+        Set this to false if your app contains sensitive information.
+    -->
+    <include domain="file" path="." />
+    
+    <!-- Exclude sensitive LivePerson data from backup -->
+    <exclude domain="database" path="liveperson.db" />
+    <exclude domain="sharedpref" path="liveperson_prefs.xml" />
+</full-backup-content>

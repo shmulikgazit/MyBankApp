@@ -1,0 +1,20 @@
+pluginManagement {
+    repositories {
+        google()
+        mavenCentral()
+        gradlePluginPortal()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        // LivePerson SDK repository (per quick start docs)
+        maven { url "https://lpinfra.jfrog.io/artifactory/android_sdk/" }
+    }
+}
+
+rootProject.name = "LivePersonDemo"
+include ':app'

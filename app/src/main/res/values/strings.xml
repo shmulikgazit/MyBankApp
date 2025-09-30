@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Info -->
+    <string name="app_name">LivePerson Demo</string>
+    <string name="app_title">LivePerson Android SDK Demo</string>
+    <string name="app_description">This demo app shows how to integrate LivePerson messaging into your Android application using unauthenticated conversations.</string>
+    
+    <!-- Button Labels -->
+    <string name="start_conversation">Start Conversation</string>
+    <string name="initializing">Initializing...</string>
+    
+    <!-- Info Text -->
+    <string name="demo_info">Tap the button above to start a demo conversation with LivePerson. This uses an unauthenticated flow perfect for testing and learning.</string>
+    <string name="version_info">Demo App v1.0 - LivePerson SDK</string>
+    
+    <!-- Content Descriptions for Accessibility -->
+    <string name="chat_icon_description">Chat icon representing messaging functionality</string>
+    
+    <!-- Error Messages -->
+    <string name="initialization_error">Failed to initialize LivePerson SDK</string>
+    <string name="conversation_error">Failed to start conversation</string>
+    
+    <!-- LivePerson Related -->
+    <string name="brand_id">53949244</string>
+    <string name="app_install_id">46bcf782-feee-490d-861d-2b5feb4437c8</string>
+</resources>

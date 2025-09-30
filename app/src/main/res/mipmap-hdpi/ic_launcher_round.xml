@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="72dp"
+    android:height="72dp"
+    android:viewportWidth="72"
+    android:viewportHeight="72">
+    
+    <!-- Circular background -->
+    <path
+        android:fillColor="@color/primary_color"
+        android:pathData="M36,36m-36,0a36,36 0,1 1,72 0a36,36 0,1 1,-72 0" />
+    
+    <!-- Inner circle -->
+    <path
+        android:fillColor="@color/primary_dark"
+        android:pathData="M36,36m-30,0a30,30 0,1 1,60 0a30,30 0,1 1,-60 0" />
+    
+    <!-- Chat Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,20H18C15.8,20 14,21.8 14,24v16c0,2.2 1.8,4 4,4h6l6,6l6,-6h18c2.2,0 4,-1.8 4,-4V24C58,21.8 56.2,20 54,20zM54,40H47.12L42,45.12L36.88,40H18V24h36V40z"/>
+    
+    <!-- Chat dots -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M24,30h4v4h-4V30zM32,30h4v4h-4V30zM40,30h4v4h-4V30z"/>
+        
+</vector>

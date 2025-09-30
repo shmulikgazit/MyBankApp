@@ -1,0 +1,30 @@
+# Android/Gradle
+.gradle/
+.idea/
+*.iml
+local.properties
+
+# Build outputs
+/build/
+/app/build/
+/captures/
+/.externalNativeBuild/
+/.cxx/
+
+# Artifacts & keys
+*.apk
+*.aab
+*.keystore
+*.jks
+
+# Misc
+classes.jar
+
+# Local AARs (we use Gradle dependencies)
+/app/libs/*.aar
+
+# Firebase/Secrets (if any)
+google-services.json
+
+# Optional: exclude vendor sample (remove if you want it in git)
+/SampleApp-Source/
