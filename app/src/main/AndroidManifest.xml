@@ -37,6 +37,11 @@
             android:exported="false"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".TroubleshootActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
         <!-- LivePerson Conversation Activity -->
         <activity
             android:name="com.liveperson.infra.messaging_ui.ConversationActivity"

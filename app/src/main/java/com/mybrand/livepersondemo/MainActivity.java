@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     private Button startConversationButton;
     private Button openSettingsButton;
+    private Button openTroubleshootButton;
     private android.widget.TextView statusTextView;
     private Messaging messaging;
 
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
     private void initViews() {
         startConversationButton = findViewById(R.id.btn_start_conversation);
         openSettingsButton = findViewById(R.id.btn_open_settings);
+        openTroubleshootButton = findViewById(R.id.btn_open_troubleshoot);
         statusTextView = findViewById(R.id.tv_status);
     }
 
@@ -64,6 +66,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new android.content.Intent(MainActivity.this, SettingsActivity.class));
+            }
+        });
+
+        openTroubleshootButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new android.content.Intent(MainActivity.this, TroubleshootActivity.class));
             }
         });
     }

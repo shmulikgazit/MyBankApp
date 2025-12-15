@@ -12,4 +12,8 @@ start "" "C:\androidstudio\bin\studio64.exe"
 
 echo Android Studio is starting...
 echo If this is your first time, you'll need to complete the setup wizard.
+echo To run the application, press on the "Play" green triangle at the top of the screen.  It will ask you to select a device or emulator.
+echo Select the emulator you created in the previous lesson.
+echo You can also run the application by pressing the "Run" button in the toolbar.
+
 pause
