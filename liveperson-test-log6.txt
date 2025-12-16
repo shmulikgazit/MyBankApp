@@ -1,0 +1,140 @@
+2025-12-16 09:56:12.501 [INFO] === Test started ===
+2025-12-16 09:56:12.509 [INFO] SDK version: 5.25.1
+2025-12-16 09:56:12.512 [INFO] Diagnostics: {
+  "timestamp": "2025-12-16T09:56:12.509+0000",
+  "app": {
+    "package": "com.mybrand.livepersondemo",
+    "versionName": "1.0",
+    "versionCode": 1
+  },
+  "device": {
+    "manufacturer": "Google",
+    "model": "sdk_gphone64_x86_64",
+    "sdkInt": 36,
+    "release": "16"
+  },
+  "liveperson": {
+    "brandId": "45975138",
+    "appInstallId": "***",
+    "appId": "com.mybrand.livepersondemo",
+    "sdkDependency": "com.liveperson.android:lp_messaging_sdk:5.25.1"
+  }
+}
+2025-12-16 09:56:12.513 [INFO] LivePerson.Logging configured: level=DEBUG, masking=ON, history cleared
+2025-12-16 09:56:12.518 [INFO] Using brandId=45975138, appInstallId=***
+2025-12-16 09:56:13.307 [OK] DNS OK: adminlogin.liveperson.net (782ms)
+2025-12-16 09:56:14.147 [OK] DNS OK: lptag.liveperson.net (840ms)
+2025-12-16 09:56:14.318 [OK] DNS OK: lpcdn.lpsnmedia.net (170ms)
+2025-12-16 09:56:14.866 [OK] DNS OK: lo.idp.liveperson.net (547ms)
+2025-12-16 09:56:14.866 [INFO] Calling LivePerson.initialize(...) with ***...
+2025-12-16 09:56:14.963 [OK] initialize succeeded
+2025-12-16 09:56:14.970 [INFO] Active conversation BEFORE showConversation: false
+2025-12-16 09:56:14.971 [INFO] Calling LivePerson.showConversation(UN_AUTH)...
+2025-12-16 09:56:14.982 [OK] showConversation returned: true
+2025-12-16 09:56:16.493 [OK] DNS OK: lo.idp.liveperson.net (1ms)
+2025-12-16 09:56:16.493 [INFO] [1.5s] Active conversation: false
+2025-12-16 09:56:19.992 [INFO] [5s] Active conversation: false
+2025-12-16 09:56:19.994 [OK] DNS OK: lo.idp.liveperson.net (2ms)
+2025-12-16 09:56:20.001 [INFO] === LivePerson SDK log snapshot (DEBUG) ===
+2025-12-16 09:56:20.001 [SDK] 2025-12-16 09:56:19.SSS [I] [SocketWrapperOK] ---- Socket onMessage callback with text: ********
+2025-12-16 09:56:20.001 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketHandler] ***
+2025-12-16 09:56:20.001 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketHandler] text {"kind":"resp","reqId":"62","code":200,"body":{"currentTime":1765878979509},"type":"GetClockResponse"}
+2025-12-16 09:56:20.001 [SDK] 2025-12-16 09:56:19.SSS [D] [***] Found response in map :GetClockResponse requestId = 62
+2025-12-16 09:56:20.001 [SDK] 2025-12-16 09:56:19.SSS [D] [FLOW_RESPONSES_] *** expectedType = GetClockResponse received messageType = GetClockResponse
+2025-12-16 09:56:20.001 [SDK] 2025-12-16 09:56:19.SSS [I] [SocketHandler] Got response = GetClockResponse for request ClockRequest
+2025-12-16 09:56:20.002 [SDK] 2025-12-16 09:56:19.SSS [D] [***] ended span has id = 6d86bec1fdb8b392
+2025-12-16 09:56:20.002 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Running *** command...
+2025-12-16 09:56:20.002 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 09:56:20.002 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 09:56:20.002 [SDK] 2025-12-16 09:56:19.SSS [D] [ClockRequest] The clock diff is -234
+2025-12-16 09:56:20.002 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Running *** task...
+2025-12-16 09:56:20.002 [SDK] 2025-12-16 09:56:19.SSS [D] [ResponseMap] onRequestHandled: 62, removing it from map. map = ********
+2025-12-16 09:56:20.002 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Running *** command...
+2025-12-16 09:56:20.003 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 09:56:20.003 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 09:56:20.004 [SDK] 2025-12-16 09:56:19.SSS [D] [***] Step up disabled. No request
+2025-12-16 09:56:20.004 [SDK] 2025-12-16 09:56:19.SSS [I] [GetConsumerUserTask] Running GetConsumerUserTask task...
+2025-12-16 09:56:20.004 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsUsers] getConsumerId for brand 45975138
+2025-12-16 09:56:20.004 [SDK] 2025-12-16 09:56:19.SSS [D] [***] begin span has id = e69038561bbce402
+2025-12-16 09:56:20.004 [SDK] 2025-12-16 09:56:19.SSS [D] [***] ended span has id = e69038561bbce402
+2025-12-16 09:56:20.004 [SDK] 2025-12-16 09:56:19.SSS [D] [GetConsumerUserTask] consumerId is not empty. Do not make a request.
+2025-12-16 09:56:20.004 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Running *** command...
+2025-12-16 09:56:20.005 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 09:56:20.005 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 09:56:20.005 [SDK] 2025-12-16 09:56:19.SSS [D] [***] Running mark all pending messages as failed task...
+2025-12-16 09:56:20.005 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Running *** command...
+2025-12-16 09:56:20.005 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 09:56:20.005 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 09:56:20.005 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Running *** command...
+2025-12-16 09:56:20.005 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketManager] getSocketHandler req id 63
+2025-12-16 09:56:20.005 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketHandler] sendPendingMessages # msg: 0
+2025-12-16 09:56:20.006 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 09:56:20.006 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 09:56:20.006 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Running *** task...
+2025-12-16 09:56:20.006 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsUsers] getConsumerId for brand 45975138
+2025-12-16 09:56:20.006 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketManager] getSocketHandler req id 64
+2025-12-16 09:56:20.006 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketManager] getResponseHandler for request 64 is not null
+2025-12-16 09:56:20.007 [SDK] 2025-12-16 09:56:19.SSS [I] [SocketManager] Sending request ***
+2025-12-16 09:56:20.007 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketHandler] Sending message {"id":64,"type":"cqm.***","kind":"req","body":{"maxLastUpdatedTime":null,"minLastUpdatedTime":0,"agentIds":[""],"consumerId":"***","brandId":"45975138","maxETTR":null,"convState":["OPEN","CLOSE","LOCKED"],"stage":["OPEN","CLOSE","LOCKED"]}}
+2025-12-16 09:56:20.007 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketStateManager] getState
+2025-12-16 09:56:20.007 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketHandler] Sending data: ********
+2025-12-16 09:56:20.007 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketWrapperOK] Socket send ********
+2025-12-16 09:56:20.007 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsConversations] Updated 0 pending conversation as Closed on DB
+2025-12-16 09:56:20.007 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsDialogs] Updated 0 pending dialog as Closed on DB
+2025-12-16 09:56:20.007 [SDK] 2025-12-16 09:56:19.SSS [I] [SocketWrapperOK] ---- Socket onMessage callback with text: ********
+2025-12-16 09:56:20.008 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketHandler] ***
+2025-12-16 09:56:20.008 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketHandler] text {"kind":"resp","reqId":"64","code":200,"body":{"subscriptionId":"***"},"type":"cqm.***"}
+2025-12-16 09:56:20.008 [SDK] 2025-12-16 09:56:19.SSS [D] [***] Found response in map :cqm.*** requestId = 64
+2025-12-16 09:56:20.008 [SDK] 2025-12-16 09:56:19.SSS [D] [FLOW_RESPONSES_] *** expectedType = cqm.*** received messageType = cqm.***
+2025-12-16 09:56:20.008 [SDK] 2025-12-16 09:56:19.SSS [I] [SocketHandler] Got response = cqm.*** for request ***
+2025-12-16 09:56:20.009 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Running *** command...
+2025-12-16 09:56:20.009 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 09:56:20.009 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 09:56:20.009 [SDK] 2025-12-16 09:56:19.SSS [D] [ResponseMap] onRequestHandled: 64, removing it from map. map = ********
+2025-12-16 09:56:20.009 [SDK] 2025-12-16 09:56:19.SSS [I] [GetAgentUserTask] Running get updated user task...
+2025-12-16 09:56:20.009 [SDK] 2025-12-16 09:56:19.SSS [D] [GetAgentUserTask] No active conversation
+2025-12-16 09:56:20.009 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Running *** command...
+2025-12-16 09:56:20.009 [SDK] 2025-12-16 09:56:19.SSS [I] [AmsConnection::LOGIN_FLOW] getUpdates - Socket connection updates Success
+2025-12-16 09:56:20.010 [SDK] 2025-12-16 09:56:19.SSS [D] [***::LOGIN_FLOW] OpenSocketTask: socket ready! time since socket opened: 303
+2025-12-16 09:56:20.010 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Connection changed! new status: true last status: false
+2025-12-16 09:56:20.010 [SDK] 2025-12-16 09:56:19.SSS [D] [***] onConnectionChanged isConnected = true
+2025-12-16 09:56:20.010 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsEnterMessage] ***() *** = false result = false
+2025-12-16 09:56:20.010 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsEnterMessage] ***. controlButton = false
+2025-12-16 09:56:20.010 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsEnterMessage] ***() res = false
+2025-12-16 09:56:20.011 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsEnterMessage] ***. controlButton = false
+2025-12-16 09:56:20.011 [SDK] 2025-12-16 09:56:19.SSS [D] [***] ***
+2025-12-16 09:56:20.011 [SDK] 2025-12-16 09:56:19.SSS [D] [***] *** - filterOn = false, updated = false
+2025-12-16 09:56:20.012 [SDK] 2025-12-16 09:56:19.SSS [D] [Messaging] There's no active dialog
+2025-12-16 09:56:20.012 [SDK] 2025-12-16 09:56:19.SSS [I] [***] Connection changed! new status: true last status: true
+2025-12-16 09:56:20.012 [SDK] 2025-12-16 09:56:19.SSS [D] [***] onConnectionChanged - action = ***
+2025-12-16 09:56:20.012 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsConversations] ***
+2025-12-16 09:56:20.013 [SDK] 2025-12-16 09:56:19.SSS [D] [***] onConnected - current state = 6
+2025-12-16 09:56:20.013 [SDK] 2025-12-16 09:56:19.SSS [D] [***] apply state = 6 getHeight() = 95
+2025-12-16 09:56:20.014 [SDK] 2025-12-16 09:56:19.SSS [I] [SocketWrapperOK] ---- Socket onMessage callback with text: ********
+2025-12-16 09:56:20.014 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketHandler] ***
+2025-12-16 09:56:20.014 [SDK] 2025-12-16 09:56:19.SSS [D] [SocketHandler] text {"kind":"notification","body":{"subscriptionId":"***","sentTs":1765878979721,"changes":[{"type":"UPSERT","result":{"convId":"***","effectiveTTR":1765831684596,"conversationDetails":{"skillId":"-1","participants":[{"id":"***","role":"CONSUMER"}],"dialogs":[{"dialogId":"***","participantsDetails":[{"id":"***","role":"CONSUMER","state":"ACTIVE"}],"dialogType":"MAIN","channelType":"MESSAGING","state":"OPEN","creationTs":1765831084570,"***":1765831084570}],"brandId":"45975138","state":"OPEN","stage":"OPEN","startTs":1765831084570,"***":1765831084570,"ttr":{"ttrType":"PRIORITIZED","value":600},"***":{"accountId":"45975138","skillId":"-1"}}}}]},"type":"cqm.***"}
+2025-12-16 09:56:20.014 [SDK] 2025-12-16 09:56:19.SSS [D] [***] Getting general response for message type :cqm.***
+2025-12-16 09:56:20.015 [SDK] 2025-12-16 09:56:19.SSS [D] [***] Creating general response - *** - for message type :cqm.***
+2025-12-16 09:56:20.016 [SDK] 2025-12-16 09:56:19.SSS [D] [FLOW_RESPONSES_] *** expectedType = cqm.*** received messageType = cqm.***
+2025-12-16 09:56:20.017 [SDK] 2025-12-16 09:56:19.SSS [I] [SocketHandler] Got response = cqm.***
+2025-12-16 09:56:20.017 [SDK] 2025-12-16 09:56:19.SSS [D] [***] This JSON has stage field! JSON: {"skillId":"-1","participants":[{"id":"***","role":"CONSUMER"}],"dialogs":[{"dialogId":"***","participantsDetails":[{"id":"***","role":"CONSUMER","state":"ACTIVE"}],"dialogType":"MAIN","channelType":"MESSAGING","state":"OPEN","creationTs":1765831084570,"***":1765831084570}],"brandId":"45975138","state":"OPEN","stage":"OPEN","startTs":1765831084570,"***":1765831084570,"ttr":{"ttrType":"PRIORITIZED","value":600},"***":{"accountId":"45975138","skillId":"-1"}}
+2025-12-16 09:56:20.017 [SDK] 2025-12-16 09:56:19.SSS [D] [AmsDialogs::MULTI_DIALOG_FLOW] Communicating with a new UMS, multi-dialog is supported!
+2025-12-16 09:56:20.017 [SDK] 2025-12-16 09:56:19.SSS [D] [***] umsConversations: [{ data: {conversationId: ***, state: OPEN, dialogs: [{ dialogId: ***, creationTs: 1765831084570, endTs: -1 }]} }]
+2025-12-16 09:56:20.018 [SDK] 2025-12-16 09:56:19.SSS [D] [ums conversation list: ] *** startTs: Mon Dec 15 20:38:04 GMT 2025 ,  endTs: Wed Dec 31 23:59:59 GMT 1969
+2025-12-16 09:56:20.018 [SDK] 2025-12-16 09:56:19.SSS [D] [***] Getting inca conversation list url https://lo.msghist.liveperson.net/messaging_history/api/account/45975138/conversations/consumer/metadata/search?state=close&startFrom=1731808579576&startTo=1765831084570&offset=0&limit=100&sort=start%3Adesc&source=SDK_Android_History
+2025-12-16 09:56:20.018 [SDK] 2025-12-16 09:56:19.SSS [D] [HttpHandler] header.first User-Agent header.second ANDROID
+2025-12-16 09:56:20.018 [SDK] 2025-12-16 09:56:19.SSS [D] [HttpHandler] header.first Authorization header.second Bearer ***.***.***
+2025-12-16 09:56:20.018 [SDK] 2025-12-16 09:56:19.SSS [I] [HttpHandler] URL: lo.msghist.liveperson.net
+2025-12-16 09:56:20.018 [SDK] 2025-12-16 09:56:19.SSS [D] [HttpHandler] Sending http request: https://lo.msghist.liveperson.net/messaging_history/api/account/45975138/conversations/consumer/metadata/search?state=close&startFrom=1731808579576&startTo=1765831084570&offset=0&limit=100&sort=start%3Adesc&source=SDK_Android_History with no Pinning Keys
+2025-12-16 09:56:20.018 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 09:56:20.019 [SDK] 2025-12-16 09:56:19.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 09:56:20.019 [SDK] 2025-12-16 09:56:19.SSS [D] [***] begin span has id = 8d5575f72365d449
+2025-12-16 09:56:20.019 [SDK] 2025-12-16 09:56:19.SSS [D] [OkHttpClientHolder] Pinning keys are the same. Skipping building new client.
+2025-12-16 09:56:20.019 [SDK] 2025-12-16 09:56:19.SSS [I] [LivePerson] Checking for Open Conversations
+2025-12-16 09:56:20.019 [SDK] 2025-12-16 09:56:19.SSS [D] [LivePerson] isInitialized = true
+2025-12-16 09:56:20.019 [SDK] 2025-12-16 09:56:19.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 09:56:20.019 [SDK] 2025-12-16 09:56:19.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 14
+2025-12-16 09:56:20.020 [SDK] 2025-12-16 09:56:19.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 09:56:20.020 [SDK] 2025-12-16 09:56:19.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 15
+2025-12-16 09:56:20.020 [INFO] === End LivePerson SDK log snapshot ===
+2025-12-16 09:56:20.020 [INFO] === Test finished ===

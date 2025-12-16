@@ -1,0 +1,450 @@
+2025-12-16 10:05:24.120 [INFO] === Test started ===
+2025-12-16 10:05:24.129 [INFO] SDK version: 5.25.1
+2025-12-16 10:05:24.136 [INFO] Diagnostics: {
+  "timestamp": "2025-12-16T10:05:24.129+0000",
+  "app": {
+    "package": "com.mybrand.livepersondemo",
+    "versionName": "1.0",
+    "versionCode": 1
+  },
+  "device": {
+    "manufacturer": "Google",
+    "model": "sdk_gphone64_x86_64",
+    "sdkInt": 36,
+    "release": "16"
+  },
+  "liveperson": {
+    "brandId": "45975138",
+    "appInstallId": "***",
+    "appId": "com.mybrand.livepersondemo",
+    "sdkDependency": "com.liveperson.android:lp_messaging_sdk:5.25.1"
+  }
+}
+2025-12-16 10:05:24.137 [INFO] LivePerson.Logging configured: level=VERBOSE, masking=ON, history cleared
+2025-12-16 10:05:24.139 [INFO] Using brandId=45975138, appInstallId=***
+2025-12-16 10:05:24.373 [OK] DNS OK: adminlogin.liveperson.net (228ms)
+2025-12-16 10:05:24.591 [OK] DNS OK: lptag.liveperson.net (217ms)
+2025-12-16 10:05:24.593 [OK] DNS OK: lpcdn.lpsnmedia.net (1ms)
+2025-12-16 10:05:25.103 [OK] DNS OK: lo.idp.liveperson.net (510ms)
+2025-12-16 10:05:25.103 [INFO] Calling LivePerson.initialize(...) with ***...
+2025-12-16 10:05:25.173 [OK] initialize succeeded
+2025-12-16 10:05:25.178 [INFO] Active conversation BEFORE showConversation: false
+2025-12-16 10:05:25.179 [INFO] Calling LivePerson.showConversation(UN_AUTH)...
+2025-12-16 10:05:25.179 [INFO] Cleared LivePerson log history before showConversation
+2025-12-16 10:05:25.187 [OK] showConversation returned: true
+2025-12-16 10:05:25.189 [INFO] Starting SDK log polling (15000ms, every 750ms)
+2025-12-16 10:05:25.193 [SDK] 2025-12-16 10:05:25.SSS [I] [LivePerson] == Start of LivePerson Logs ==
+2025-12-16 10:05:25.193 [SDK] 2025-12-16 10:05:25.SSS [I] [LivePerson] Showing Conversation Activity
+2025-12-16 10:05:25.193 [SDK] 2025-12-16 10:05:25.SSS [D] [LivePerson] isInitialized = true
+2025-12-16 10:05:25.194 [SDK] 2025-12-16 10:05:25.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:25.194 [SDK] 2025-12-16 10:05:25.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 13
+2025-12-16 10:05:25.194 [SDK] 2025-12-16 10:05:25.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:25.194 [SDK] 2025-12-16 10:05:25.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 14
+2025-12-16 10:05:25.949 [SDK] 2025-12-16 10:05:25.SSS [D] [MessagingUi] init: UI module version = 5.25.1
+2025-12-16 10:05:25.949 [SDK] 2025-12-16 10:05:25.SSS [D] [MessagingUi] init: Messaging module version = 5.25.1
+2025-12-16 10:05:25.949 [SDK] 2025-12-16 10:05:25.SSS [D] [MessagingUi] init: MessagingUi module version = 5.25.1
+2025-12-16 10:05:25.949 [SDK] 2025-12-16 10:05:25.SSS [D] [Infra] init: Interceptors enabled: false
+2025-12-16 10:05:25.950 [SDK] 2025-12-16 10:05:25.SSS [D] [Messaging] Setting conversation view params : State To Display = ALL, Max Days = -1, Max Days Type = ***
+2025-12-16 10:05:25.950 [SDK] 2025-12-16 10:05:25.SSS [D] [InfraStateMachine] Initialized <-<- InitEvent
+2025-12-16 10:05:25.950 [SDK] 2025-12-16 10:05:25.SSS [D] [InfraStateMachine] Initialized! calling onInitSucceed callback
+2025-12-16 10:05:25.950 [SDK] 2025-12-16 10:05:25.SSS [D] [***] begin span has id = fd9d477cae77a268
+2025-12-16 10:05:25.950 [SDK] 2025-12-16 10:05:25.SSS [D] [OfflineManager] Started removing pending offline messages
+2025-12-16 10:05:25.950 [SDK] 2025-12-16 10:05:25.SSS [D] [OfflineManager] Pending offline messages successfully deleted
+2025-12-16 10:05:25.950 [SDK] 2025-12-16 10:05:25.SSS [D] [***] ***
+2025-12-16 10:05:25.951 [SDK] 2025-12-16 10:05:25.SSS [D] [***] ***
+2025-12-16 10:05:25.951 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onCreateView = 45975138
+2025-12-16 10:05:25.951 [SDK] 2025-12-16 10:05:25.SSS [D] [AmsEnterMessage] ***() *** = false result = false
+2025-12-16 10:05:25.952 [SDK] 2025-12-16 10:05:25.SSS [D] [AmsEnterMessage] ***. controlButton = false
+2025-12-16 10:05:25.952 [SDK] 2025-12-16 10:05:25.SSS [D] [AmsEnterMessage] ***() res = false
+2025-12-16 10:05:25.952 [SDK] 2025-12-16 10:05:25.SSS [D] [AmsEnterMessage] ***. controlButton = false
+2025-12-16 10:05:25.952 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onViewCreated: Set RecyclerView cache size to 10
+2025-12-16 10:05:25.952 [SDK] 2025-12-16 10:05:25.SSS [D] [***] ***: true
+2025-12-16 10:05:25.953 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onActivityCreated
+2025-12-16 10:05:25.953 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onActivityCreated isInitialized = true
+2025-12-16 10:05:25.953 [SDK] 2025-12-16 10:05:25.SSS [D] [***] isAttachedToWindow = true
+2025-12-16 10:05:25.953 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onResume:
+2025-12-16 10:05:25.953 [SDK] 2025-12-16 10:05:25.SSS [D] [***] Setting conversation background state to: false
+2025-12-16 10:05:25.953 [SDK] 2025-12-16 10:05:25.SSS [D] [***] *** - ***:true
+2025-12-16 10:05:25.953 [SDK] 2025-12-16 10:05:25.SSS [I] [ForegroundService] register with brand 45975138
+2025-12-16 10:05:25.954 [SDK] 2025-12-16 10:05:25.SSS [E] [AccountsController] [ERR_00000162] ***: getAccount returns null for brand with id: 45975138
+2025-12-16 10:05:25.954 [SDK] 2025-12-16 10:05:25.SSS [D] [***] Initial launch. using authentication params
+2025-12-16 10:05:25.954 [SDK] 2025-12-16 10:05:25.SSS [D] [Messaging] moveToForeground: brandId = 45975138
+2025-12-16 10:05:25.954 [SDK] 2025-12-16 10:05:25.SSS [D] [Messaging] Init brand 45975138
+2025-12-16 10:05:25.954 [SDK] 2025-12-16 10:05:25.SSS [I] [AccountsController] Adding new account: 45975138
+2025-12-16 10:05:25.954 [SDK] 2025-12-16 10:05:25.SSS [D] [DBEncryptionService] decrypt() cKQ95B/azM97wBH1
+::Uf+***//us8RmU=
+2025-12-16 10:05:25.955 [SDK] 2025-12-16 10:05:25.SSS [V] [DBEncryptionService] Successfully Decrypted ********
+2025-12-16 10:05:25.955 [SDK] 2025-12-16 10:05:25.SSS [D] [AmsAccount] restoring mOriginalConsumerId = ********, mConnectorId = ********
+2025-12-16 10:05:25.955 [SDK] 2025-12-16 10:05:25.SSS [D] [AmsAccount] restoring data: mToken = ********
+2025-12-16 10:05:25.955 [SDK] 2025-12-16 10:05:25.SSS [I] [AmsAccount] setPerformStepUp = false
+2025-12-16 10:05:25.955 [SDK] 2025-12-16 10:05:25.SSS [I] [***] Adding new AmsConnection: 45975138
+2025-12-16 10:05:25.955 [SDK] 2025-12-16 10:05:25.SSS [I] [AmsConnection::LOGIN_FLOW] moveToForeground for brand 45975138
+2025-12-16 10:05:25.955 [SDK] 2025-12-16 10:05:25.SSS [D] [***] DisconnectedState <-<- ForegroundEvent
+2025-12-16 10:05:25.956 [SDK] 2025-12-16 10:05:25.SSS [I] [***] Clearing notification messages for brand 45975138
+2025-12-16 10:05:25.956 [SDK] 2025-12-16 10:05:25.SSS [I] [***] onResume: Is messaging initialized? true
+2025-12-16 10:05:25.956 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onConnectionChanged isConnected = false
+2025-12-16 10:05:25.956 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onConnectionLost - removing loading old messages indicator
+2025-12-16 10:05:25.956 [SDK] 2025-12-16 10:05:25.SSS [D] [***] remove loading for history =  indexLoadingHistory = -1
+2025-12-16 10:05:25.956 [SDK] 2025-12-16 10:05:25.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 10:05:25.956 [SDK] 2025-12-16 10:05:25.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 10:05:25.956 [SDK] 2025-12-16 10:05:25.SSS [D] [***] isConnected true
+2025-12-16 10:05:25.956 [SDK] 2025-12-16 10:05:25.SSS [D] [***] lastConnectionState true
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [***] RegisteredReceiver, currentStatus = Intent { act=android.net.conn.CONNECTIVITY_CHANGE flg=0x4200010 xflg=0x4 (has extras) }
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [***] RegisteredReceiver, lastConnectionState = true
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [***] DisconnectedState -> ConnectingState
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onConnectionChanged - isConnecting = true current state = -1
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [I] [AmsConnection::LOGIN_FLOW] Start connecting for brand: 45975138
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [VersionUtils] versionCompare str1 5.25.1
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [VersionUtils] versionCompare str2 1.0.53
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [VersionUtils] isValidSdkVersion: Version check is OK
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [***::LOGIN_FLOW] ConnectingState actionOnEntry: CSDS data is missing from persistence OR version wasn't compatible on last connection or full flow required.
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [***] apply state = 2 getHeight() = 0
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [***] ConnectingState <-<- RunTaskEvent #0
+2025-12-16 10:05:25.957 [SDK] 2025-12-16 10:05:25.SSS [D] [***] Running task: CsdsTask Retry #0, After delay: 0
+2025-12-16 10:05:25.958 [SDK] 2025-12-16 10:05:25.SSS [D] [CsdsTask] Running CSDS task...
+2025-12-16 10:05:25.958 [SDK] 2025-12-16 10:05:25.SSS [D] [DBEncryptionService] decrypt()
+2025-12-16 10:05:25.958 [SDK] 2025-12-16 10:05:25.SSS [D] [HttpHandler] header.first User-Agent header.second ANDROID
+2025-12-16 10:05:25.958 [SDK] 2025-12-16 10:05:25.SSS [I] [HttpHandler] URL: adminlogin.liveperson.net
+2025-12-16 10:05:25.958 [SDK] 2025-12-16 10:05:25.SSS [D] [HttpHandler] Sending http request: https://adminlogin.liveperson.net/csdr/account/45975138/service/baseURI.json?version=1.0 with no Pinning Keys
+2025-12-16 10:05:25.958 [SDK] 2025-12-16 10:05:25.SSS [D] [***] begin span has id = 6bec9feda60fc2c3
+2025-12-16 10:05:25.958 [SDK] 2025-12-16 10:05:25.SSS [D] [OkHttpClientHolder] Pinning keys are the same. Skipping building new client.
+2025-12-16 10:05:25.958 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onConnectionChanged - action = ***
+2025-12-16 10:05:25.958 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onConnectionChanged - isConnecting = true current state = 2
+2025-12-16 10:05:25.959 [SDK] 2025-12-16 10:05:25.SSS [D] [***] onConnectionChanged - not starting to connect. keeping current state.
+2025-12-16 10:05:25.959 [SDK] 2025-12-16 10:05:25.SSS [D] [***] apply state = 2 getHeight() = 95
+2025-12-16 10:05:25.959 [SDK] 2025-12-16 10:05:25.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 15
+2025-12-16 10:05:26.694 [OK] DNS OK: lo.idp.liveperson.net (0ms)
+2025-12-16 10:05:26.695 [INFO] [1.5s] Active conversation: false
+2025-12-16 10:05:26.718 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Task CsdsTask finished successfully
+2025-12-16 10:05:26.718 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Running next task...
+2025-12-16 10:05:26.718 [SDK] 2025-12-16 10:05:26.SSS [D] [***] ConnectingState <-<- RunTaskEvent #1
+2025-12-16 10:05:26.719 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Running task: *** Retry #0, After delay: 0
+2025-12-16 10:05:26.719 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Running GetEngagement task, relevant only if auth type is UnAuth. current type: UN_AUTH
+2025-12-16 10:05:26.719 [SDK] 2025-12-16 10:05:26.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [V] [DBEncryptionService] Successfully Encrypted block ********
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Type is UnAuth and we already have connector id
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [***] ConnectingState <-<- TaskSuccessEvent
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Task *** finished successfully
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [***] ConnectingState <-<- RunTaskEvent #2
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Running task: ACCDNConnectorsTask Retry #0, After delay: 0
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Task ACCDNConnectorsTask finished successfully
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [***] ConnectingState <-<- RunTaskEvent #3
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Running task: ConcurrentTasks Retry #0, After delay: 0
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [ConcurrentTasks] Executing task: *** with state: CREATED
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [Messaging] *** without service
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [FileSharingManager] ***: removing older files if greater than: 20. fileTypeString: [jpg, jpeg, png, gif]
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [FileSharingManager] ***: removing older files if greater than: 20. fileTypeString: [m4a, acc, mp3]
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [FileSharingManager] ***: removing older files if greater than: 20. fileTypeString: [docx, pdf, xlsx, pptx]
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [***::LOGIN_FLOW] ***: task time = 0 millis
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [ConcurrentTasks] Finished executing task: ***
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [ConcurrentTasks] Executing task: DataBaseTask with state: CREATED
+2025-12-16 10:05:26.720 [SDK] 2025-12-16 10:05:26.SSS [D] [DataBaseTask] Running Database loading task...
+2025-12-16 10:05:26.721 [SDK] 2025-12-16 10:05:26.SSS [D] [ConcurrentTasks] Executing task: *** with state: CREATED
+2025-12-16 10:05:26.721 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Running site settings check task...
+2025-12-16 10:05:26.721 [SDK] 2025-12-16 10:05:26.SSS [D] [AmsFiles] query: number of records with localUrl: 0
+2025-12-16 10:05:26.721 [SDK] 2025-12-16 10:05:26.SSS [D] [FileSharingManager] ***: number of localUrl exist in DB: 0 (fileTypeString = [jpg, jpeg, png, gif])
+2025-12-16 10:05:26.722 [SDK] 2025-12-16 10:05:26.SSS [D] [ConcurrentTasks] Executing task: IdpTask with state: CREATED
+2025-12-16 10:05:26.722 [SDK] 2025-12-16 10:05:26.SSS [D] [IdpTask] Running IDP task...
+2025-12-16 10:05:26.722 [SDK] 2025-12-16 10:05:26.SSS [D] [FileSharingManager] ***: number of localUrl exist in DB: 0 (fileTypeString = [m4a, acc, mp3])
+2025-12-16 10:05:26.722 [SDK] 2025-12-16 10:05:26.SSS [D] [FileSharingManager] ***: number of localUrl exist in DB: 0 (fileTypeString = [docx, pdf, xlsx, pptx])
+2025-12-16 10:05:26.722 [SDK] 2025-12-16 10:05:26.SSS [I] [AuthRequest] authenticate: Send request to authenticate. Consumer type: UN_AUTH
+2025-12-16 10:05:26.722 [SDK] 2025-12-16 10:05:26.SSS [D] [DBEncryptionService] decrypt() llfwcoH7nWWYGwgy
+::S9Dq++***
+***/zdXfCPUchwPMzVoZ/xVlxU+VvR19GmYhl+aX7ySOWe2v/B
+***
+***/***+RyD/r4ouvLqXaMJZ7OO
+***+***
+TvWrm4VNXKhbOJF/***
+/***/jYn0+bIBsZNxmjmX/***
+***/***/EMnUWHTSswu0
+3wkfdDy+VSskg8J6XVoQrgl+1QxVczJH9a1PLRYyY+***
+9V8X3QkfsdQvPK/9mvvoGIlcRHqmhpg+***+g6rnteisw
+***
+4GAeplfcav/uk7if6/85/f28Jl8gD14AGEDL4Tl+***==
+2025-12-16 10:05:26.723 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] header.first User-Agent header.second ANDROID
+2025-12-16 10:05:26.724 [SDK] 2025-12-16 10:05:26.SSS [D] [AmsUsers] Adding consumer Id ******** for brand 45975138
+2025-12-16 10:05:26.724 [SDK] 2025-12-16 10:05:26.SSS [I] [HttpHandler] URL: accdn.lpsnmedia.net
+2025-12-16 10:05:26.724 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] Sending http request: https://accdn.lpsnmedia.net/api/account/45975138/configuration/setting/accountproperties with no Pinning Keys
+2025-12-16 10:05:26.724 [SDK] 2025-12-16 10:05:26.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 10:05:26.724 [SDK] 2025-12-16 10:05:26.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 10:05:26.724 [SDK] 2025-12-16 10:05:26.SSS [D] [***] begin span has id = c8a2e3b3290ee000
+2025-12-16 10:05:26.724 [SDK] 2025-12-16 10:05:26.SSS [D] [OkHttpClientHolder] Pinning keys are the same. Skipping building new client.
+2025-12-16 10:05:26.724 [SDK] 2025-12-16 10:05:26.SSS [D] [***::LOGIN_FLOW] DataBaseTask: task time = 3 millis
+2025-12-16 10:05:26.725 [SDK] 2025-12-16 10:05:26.SSS [D] [ConcurrentTasks] Finished executing task: DataBaseTask
+2025-12-16 10:05:26.725 [SDK] 2025-12-16 10:05:26.SSS [V] [DBEncryptionService] Successfully Decrypted ********
+2025-12-16 10:05:26.725 [SDK] 2025-12-16 10:05:26.SSS [D] [AuthRequest] sendGeneralRequest: IDP request url : https://lo.idp.liveperson.net/api/account/45975138/anonymous/authorize
+2025-12-16 10:05:26.725 [SDK] 2025-12-16 10:05:26.SSS [D] [ConcurrentTasks] Executing task: *** with state: CREATED
+2025-12-16 10:05:26.725 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Running configuration check task...
+2025-12-16 10:05:26.725 [SDK] 2025-12-16 10:05:26.SSS [D] [ConcurrentTasks] Executing task: LptagTask with state: CREATED
+2025-12-16 10:05:26.725 [SDK] 2025-12-16 10:05:26.SSS [D] [LptagTask] Running LPTag task...
+2025-12-16 10:05:26.726 [SDK] 2025-12-16 10:05:26.SSS [I] [HttpHandler] URL: lpcdn.lpsnmedia.net
+2025-12-16 10:05:26.726 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] Sending http request: https://lpcdn.lpsnmedia.net/mobile/configuration/androidConfig.json with no Pinning Keys
+2025-12-16 10:05:26.726 [SDK] 2025-12-16 10:05:26.SSS [D] [***] begin span has id = eb76f8a69aea0a6c
+2025-12-16 10:05:26.726 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] header.first sdkVersion header.second 5.25.1
+2025-12-16 10:05:26.727 [SDK] 2025-12-16 10:05:26.SSS [I] [HttpHandler] URL: lptag.liveperson.net
+2025-12-16 10:05:26.727 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] Sending http request: https://lptag.liveperson.net/lptag/api/account/45975138/configuration/applications/taglets/?v=2.0&scp=mb with no Pinning Keys
+2025-12-16 10:05:26.727 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] header.first platform header.second Android
+2025-12-16 10:05:26.727 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] header.first platformVer header.second 36
+2025-12-16 10:05:26.727 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] header.first device header.second sdk_gphone64_x86_64
+2025-12-16 10:05:26.727 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] header.first applicationId header.second 45975138
+2025-12-16 10:05:26.727 [SDK] 2025-12-16 10:05:26.SSS [I] [HttpHandler] URL: lo.idp.liveperson.net
+2025-12-16 10:05:26.728 [SDK] 2025-12-16 10:05:26.SSS [D] [HttpHandler] Sending http request: https://lo.idp.liveperson.net/api/account/45975138/anonymous/authorize with no Pinning Keys
+2025-12-16 10:05:26.728 [SDK] 2025-12-16 10:05:26.SSS [D] [***] begin span has id = a159d67e3712d56a
+2025-12-16 10:05:26.728 [SDK] 2025-12-16 10:05:26.SSS [D] [***] begin span has id = 1b6370cbf1075212
+2025-12-16 10:05:26.728 [SDK] 2025-12-16 10:05:26.SSS [I] [HttpHandler] onResponse from URL: https://lpcdn.lpsnmedia.net/mobile/configuration/androidConfig.json
+2025-12-16 10:05:26.728 [SDK] 2025-12-16 10:05:26.SSS [D] [***] ended span has id = eb76f8a69aea0a6c
+2025-12-16 10:05:26.728 [SDK] 2025-12-16 10:05:26.SSS [I] [HttpRequest] onSuccess! 200
+2025-12-16 10:05:26.728 [SDK] 2025-12-16 10:05:26.SSS [D] [***] *** - onCompleted {
+  "***" : "1.0.53",
+  "***" : "1.0.0"
+}
+2025-12-16 10:05:26.728 [SDK] 2025-12-16 10:05:26.SSS [W] [***] ***: photo sharing enabled parameter does not exist in configuration json
+org.json.JSONException: No value for enablePhotoSharing
+	at org.json.JSONObject.get(JSONObject.java:398)
+	at org.json.JSONObject.getBoolean(JSONObject.java:419)
+	at com.liveperson.messaging.commands.tasks.***.***(***.java:114)
+	at com.liveperson.messaging.commands.tasks.***.-$$Nest$***(Unknown Source:0)
+	at com.liveperson.messaging.commands.tasks.***$1.onSuccess(***.java:60)
+	at com.liveperson.messaging.commands.tasks.***$1.onSuccess(***.java:50)
+	at com.liveperson.infra.network.http.requests.***$1.onSuccess(***.java:53)
+	at com.liveperson.infra.network.http.requests.***$1.onSuccess(***.java:48)
+	at com.liveperson.infra.network.http.request.HttpRequest.reportSuccess(HttpRequest.java:88)
+	at com.liveperson.infra.network.http.request.HttpRequest.processResponse(HttpRequest.java:56)
+	at com.liveperson.infra.network.http.HttpHandler$1.onResponse(HttpHandler.java:100)
+	at okhttp3.internal.connection.RealCall$AsyncCall.run(RealCall.kt:519)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1563)
+2025-12-16 10:05:26.728 [SDK] 2025-12-16 10:05:26.SSS [D] [***] onSuccess: Checking SDK version against version from lp-cdn
+2025-12-16 10:05:26.729 [SDK] 2025-12-16 10:05:26.SSS [D] [VersionUtils] versionCompare str1 5.25.1
+2025-12-16 10:05:26.729 [SDK] 2025-12-16 10:05:26.SSS [D] [VersionUtils] versionCompare str2 1.0.53
+2025-12-16 10:05:26.729 [SDK] 2025-12-16 10:05:26.SSS [D] [VersionUtils] isValidSdkVersion: Version check is OK
+2025-12-16 10:05:26.729 [SDK] 2025-12-16 10:05:26.SSS [D] [***] Build version is OK
+2025-12-16 10:05:26.729 [SDK] 2025-12-16 10:05:26.SSS [D] [***::LOGIN_FLOW] ***: task time = 165 millis
+2025-12-16 10:05:26.729 [SDK] 2025-12-16 10:05:26.SSS [D] [ConcurrentTasks] Finished executing task: ***
+2025-12-16 10:05:26.729 [SDK] 2025-12-16 10:05:26.SSS [I] [LivePerson] Checking for Open Conversations
+2025-12-16 10:05:26.730 [SDK] 2025-12-16 10:05:26.SSS [D] [LivePerson] isInitialized = true
+2025-12-16 10:05:26.730 [SDK] 2025-12-16 10:05:26.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:26.730 [SDK] 2025-12-16 10:05:26.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 16
+2025-12-16 10:05:26.730 [SDK] 2025-12-16 10:05:26.SSS [E] [DataBaseCommand] [ERR_00000044] Error while running DataBaseCommand.
+android.view.ViewRootImpl$***: Only the original thread that created a view hierarchy can touch its views. Expected: main Calling: DataBaseExecutor
+	at android.view.ViewRootImpl.checkThread(ViewRootImpl.java:11491)
+	at android.view.ViewRootImpl.requestLayout(ViewRootImpl.java:2630)
+	at android.view.View.requestLayout(View.java:28508)
+	at android.view.View.requestLayout(View.java:28508)
+	at android.view.View.requestLayout(View.java:28508)
+	at android.view.View.requestLayout(View.java:28508)
+	at android.view.View.requestLayout(View.java:28508)
+	at android.view.View.requestLayout(View.java:28508)
+	at android.widget.ScrollView.requestLayout(ScrollView.java:1824)
+	at android.view.View.requestLayout(View.java:28508)
+	at android.view.View.requestLayout(View.java:28508)
+	at android.widget.TextView.checkForRelayout(TextView.java:11766)
+	at android.widget.TextView.setText(TextView.java:7520)
+	at android.widget.TextView.setText(TextView.java:7335)
+	at android.widget.TextView.setText(TextView.java:7273)
+	at com.mybrand.livepersondemo.***.refreshLogView(***.java:106)
+	at com.mybrand.livepersondemo.***.-$$Nest$mrefreshLogView(Unknown Source:0)
+	at com.mybrand.livepersondemo.***$1$1$1.onSuccess(***.java:243)
+	at com.mybrand.livepersondemo.***$1$1$1.onSuccess(***.java:233)
+	at com.liveperson.messaging.Messaging.lambda$***$3(Messaging.java:1366)
+	at com.liveperson.messaging.Messaging$$***.onResult(D8$$SyntheticClass:0)
+	at com.liveperson.infra.database.DataBaseCommand.lambda$execute$1(DataBaseCommand.java:63)
+	at com.liveperson.infra.database.DataBaseCommand.$r8$lambda$***(Unknown Source:0)
+	at com.liveperson.infra.database.DataBaseCommand$$***.run(D8$$SyntheticClass:0)
+	at com.liveperson.infra.database.DataBaseExecutor.lambda$execute$1(DataBaseExecutor.java:52)
+	at com.liveperson.infra.database.DataBaseExecutor$$***.run(D8$$SyntheticClass:0)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:520)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.util.concurrent.***$ScheduledFutureTask.run(***.java:348)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+	at java.lang.Thread.run(Thread.java:1563)
+2025-12-16 10:05:26.730 [SDK] 2025-12-16 10:05:26.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:26.730 [SDK] 2025-12-16 10:05:26.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 17
+2025-12-16 10:05:27.488 [SDK] 2025-12-16 10:05:27.SSS [I] [HttpHandler] onResponse from URL: https://accdn.lpsnmedia.net/api/account/45975138/configuration/setting/accountproperties
+2025-12-16 10:05:27.488 [SDK] 2025-12-16 10:05:27.SSS [D] [***] ended span has id = c8a2e3b3290ee000
+2025-12-16 10:05:27.488 [SDK] 2025-12-16 10:05:27.SSS [I] [HttpRequest] onSuccess! 200
+2025-12-16 10:05:27.488 [SDK] 2025-12-16 10:05:27.SSS [D] [SiteSettingsRequest] siteSettingsRequest - onCompleted [{"id":"messaging.ios.sdk.min.version","createdDate":"2017-01-09 02:49:17","modifiedDate":"2023-01-22 16:50:34","type":2,"propertyValue":{"value":"1.1.36"},"deleted":false},{"id":"nbc.integrations.adobe.analytics","createdDate":"2021-07-07 07:25:29","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.audio.sharing.enabled","createdDate":"2018-05-10 08:30:30","modifiedDate":"2018-11-15 16:36:35","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.ios.logs.settings","createdDate":"2017-01-09 02:49:17","modifiedDate":"2023-01-22 16:50:34","type":4,"propertyValue":{"value":{"level":"WARNING","minLogLevel":"INFO","randomFactor":1000.0,"maxEvents":50.0,"***":10.0}},"deleted":false},{"id":"le.site.otk.***","createdDate":"2021-06-29 02:52:43","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.file.sharing.***","createdDate":"2021-04-13 06:19:53","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"unified.window.fallback.to.first.party.cookies","createdDate":"2019-11-13 17:51:47","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"le.agent.widgetSdk.***","createdDate":"2019-08-19 04:01:54","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"le.site.automotive.conversation.topics","createdDate":"2019-10-11 10:48:24","type":3,"propertyValue":{"value":[]},"deleted":false},{"id":"le.site.otk.number.of.uses","createdDate":"2021-01-13 13:16:34","modifiedDate":"2023-01-22 16:50:34","type":1,"propertyValue":{"value":1},"deleted":false},{"id":"le.site.cobrowse.***","createdDate":"2020-08-18 07:55:10","modifiedDate":"2022-04-13 23:56:24","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"unauth.messaging.block.consumer.history","createdDate":"2018-02-01 03:23:58","modifiedDate":"2019-09-02 08:18:04","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"unified.window.enable.harmony","createdDate":"2025-06-14 22:26:54","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.hide.history.conversations.in.transcript.for.skills","createdDate":"2020-05-11 04:43:48","type":3,"propertyValue":{"value":[]},"deleted":false},{"id":"messaging.agent.file.sharing.enabled","createdDate":"2019-02-18 12:34:07","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.android.sdk.min.version","createdDate":"2017-01-09 03:39:32","modifiedDate":"2023-01-22 16:50:34","type":2,"propertyValue":{"value":"1.0.53"},"deleted":false},{"id":"messaging.web.***","createdDate":"2024-08-15 00:40:16","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"le.site.otk.duration","createdDate":"2021-01-13 13:16:34","modifiedDate":"2023-01-22 16:50:34","type":1,"propertyValue":{"value":30},"deleted":false},{"id":"messaging.sdk.event.manager.domain","createdDate":"2021-04-22 15:56:33","type":2,"propertyValue":{"value":""},"deleted":false},{"id":"messaging.hide.history.conversations.in.transcript","createdDate":"2020-05-11 04:43:48","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.brand.rollover.information","createdDate":"2020-02-13 08:22:09","modifiedDate":"2021-10-31 02:41:47","type":4,"propertyValue":{"value":{}},"deleted":false},{"id":"cobrowse.account.features.videoBackgroundUrl","createdDate":"2021-10-04 20:20:25","type":4,"propertyValue":{"value":{"enabled":"false"}},"deleted":false},{"id":"le.campaign.window.history.lazyload","createdDate":"2020-10-06 03:14:55","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"nbc.integrations.adobe.target","createdDate":"2021-07-07 07:25:29","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"le.auth.login.system","createdDate":"2025-09-18 03:57:49","modifiedDate":"2025-09-18 03:57:49","type":2,"propertyValue":{"value":"AUTH0"},"deleted":false},{"id":"messaging.android.sdk.analytics.enabled","createdDate":"2020-08-10 16:53:34","type":2,"propertyValue":{"value":"true"},"deleted":false},{"id":"le.campaign.offsite.messaging.***.redirectURL","createdDate":"2019-04-14 04:05:58","modifiedDate":"2021-02-04 07:40:12","type":2,"propertyValue":{"value":""},"deleted":false},{"id":"messaging.agent.photo.size","createdDate":"2019-02-18 12:34:07","modifiedDate":"2023-01-22 16:50:34","type":1,"propertyValue":{"value":800},"deleted":false},{"id":"le.site.automotive.partners.tradePending","createdDate":"2020-03-11 05:25:03","type":4,"propertyValue":{"value":{}},"deleted":false},{"id":"account.profile.brand.name","createdDate":"2019-10-11 10:48:24","modifiedDate":"2021-01-13 13:16:34","type":2,"propertyValue":{"value":""},"deleted":false},{"id":"le.site.leadgenerator.config","createdDate":"2018-07-01 01:40:40","modifiedDate":"2025-07-06 03:36:00","type":4,"propertyValue":{"value":{}},"deleted":false},{"id":"disable.custom.widget.iframe.sandbox","createdDate":"2019-04-14 04:05:58","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.consumer.unmasked.conversation.after.closed.minutes","createdDate":"2023-07-12 22:36:48","type":1,"propertyValue":{"value":-1},"deleted":false},{"id":"messaging.file.sharing.blurThumbnails","createdDate":"2022-09-02 21:05:25","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.file.sharing.fms.enabled","createdDate":"2025-12-07 23:58:33","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.audio.sharing.maxMessageLength","createdDate":"2018-05-10 08:30:30","modifiedDate":"2023-01-22 16:50:34","type":1,"propertyValue":{"value":120},"deleted":false},{"id":"messaging.pending.agent.during.transfer.enabled","createdDate":"2017-05-17 02:44:16","type":2,"propertyValue":{"value":"true"},"deleted":false},{"id":"unified.window.allow.first.party.storage","createdDate":"2020-02-13 08:22:09","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"le.campaign.offsite.***.redirectURL","createdDate":"2015-08-18 02:53:40","modifiedDate":"2023-01-22 16:50:34","type":2,"propertyValue":{"value":""},"deleted":false},{"id":"le.site.account.contactInfo","createdDate":"2020-02-13 08:22:09","type":4,"propertyValue":{"value":{}},"deleted":false},{"id":"unified.window.fallback.to.external","createdDate":"2019-11-13 17:51:47","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.ios.sdk.analytics.enabled","createdDate":"2020-08-10 16:53:34","type":2,"propertyValue":{"value":"true"},"deleted":false},{"id":"messaging.web.***","createdDate":"2024-08-15 00:40:16","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"le.window.ums.connection.timeout.enabled","createdDate":"2020-11-10 06:49:48","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"messaging.file.sharing.enabled","createdDate":"2016-09-18 02:31:13","modifiedDate":"2025-12-07 23:58:33","type":2,"propertyValue":{"value":"false"},"deleted":false},{"id":"le.appDynamics.enabled","createdDate":"2021-12-07 15:32:11","type":2,"propertyValue":{"value":"true"},"deleted":false}]
+2025-12-16 10:05:27.489 [SDK] 2025-12-16 10:05:27.SSS [D] [***] ***: audio sharing is enabled in SiteSettings = false
+2025-12-16 10:05:27.489 [SDK] 2025-12-16 10:05:27.SSS [D] [***] ***: true
+2025-12-16 10:05:27.489 [SDK] 2025-12-16 10:05:27.SSS [D] [***] onSuccess: minSdkVersion from site-settings: 1.0.53
+2025-12-16 10:05:27.489 [SDK] 2025-12-16 10:05:27.SSS [D] [***] ***: BLock SC when not last message is false in SiteSettings
+2025-12-16 10:05:27.489 [SDK] 2025-12-16 10:05:27.SSS [D] [***] ***: BlockTextInput is false in SiteSettings
+2025-12-16 10:05:27.489 [SDK] 2025-12-16 10:05:27.SSS [D] [***] ***: photo sharing is disabled in SiteSettings
+2025-12-16 10:05:27.489 [SDK] 2025-12-16 10:05:27.SSS [D] [***] onSuccess: site settings enablePhotoSharing is: false
+2025-12-16 10:05:27.489 [SDK] 2025-12-16 10:05:27.SSS [D] [***] onSuccess: Got photo sharing enable value from site settings: false
+2025-12-16 10:05:27.490 [SDK] 2025-12-16 10:05:27.SSS [D] [***] onSuccess: Checking SDK version against version from site-settings
+2025-12-16 10:05:27.490 [SDK] 2025-12-16 10:05:27.SSS [D] [VersionUtils] versionCompare str1 5.25.1
+2025-12-16 10:05:27.490 [SDK] 2025-12-16 10:05:27.SSS [D] [VersionUtils] versionCompare str2 1.0.53
+2025-12-16 10:05:27.490 [SDK] 2025-12-16 10:05:27.SSS [D] [VersionUtils] isValidSdkVersion: Version check is OK
+2025-12-16 10:05:27.490 [SDK] 2025-12-16 10:05:27.SSS [D] [***::LOGIN_FLOW] ***: task time = 641 millis
+2025-12-16 10:05:27.490 [SDK] 2025-12-16 10:05:27.SSS [D] [ConcurrentTasks] Finished executing task: ***
+2025-12-16 10:05:27.490 [SDK] 2025-12-16 10:05:27.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:27.490 [SDK] 2025-12-16 10:05:27.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 18
+2025-12-16 10:05:28.247 [SDK] 2025-12-16 10:05:27.SSS [I] [HttpHandler] onResponse from URL: https://lptag.liveperson.net/lptag/api/account/45975138/configuration/applications/taglets/?v=2.0&scp=mb
+2025-12-16 10:05:28.248 [SDK] 2025-12-16 10:05:27.SSS [D] [***] ended span has id = a159d67e3712d56a
+2025-12-16 10:05:28.248 [SDK] 2025-12-16 10:05:27.SSS [D] [LptagRequest] onSuccess: received response: {"site":"45975138","features":{"Common.***":false,"Messaging.Auto_Messages":false,"Common.***":false},"serviceMap":[{"account":"45975138","baseURI":"lo.codaext.liveperson.net","service":"coda"},{"account":"45975138","baseURI":"lo.workato.liveperson.net","service":"***"},{"account":"45975138","baseURI":"server.lon.liveperson.net","service":"mTag"},{"account":"45975138","baseURI":"lo.cbanalytics.liveperson.net","service":"cbAnalytics"},{"account":"45975138","baseURI":"lo.bc-msg.liveperson.net","service":"cbChatService"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.grcs-gw.liveperson.net","service":"googleRcsConnector"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.lp-marketplacemgmt.liveperson.net","service":"maps"},{"account":"45975138","baseURI":"lo.keyservice.liveperson.net","service":"keyService"},{"account":"45975138","baseURI":"lo.viber-gw.liveperson.net","service":"viberConnector"},{"account":"45975138","baseURI":"z2.bot-connectors.liveperson.net","service":"botConnectorsDomain"},{"account":"45975138","baseURI":"lo.pd.liveperson.net","service":"predictiveDialer"},{"account":"45975138","baseURI":"lo.audit-trail.int.liveperson.net","service":"auditTrail"},{"account":"45975138","baseURI":"lo.le1.liveperson.net","service":"liveEngageUI"},{"account":"45975138","baseURI":"lo.ac.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.***.liveperson.net","service":"instagramConnector"},{"account":"45975138","baseURI":"lo.intentid.liveperson.net","service":"coreAIFeedback"},{"account":"45975138","baseURI":"lo.intent.liveperson.net","service":"intentAnalyzer"},{"account":"45975138","baseURI":"lo.apple-gw.liveperson.net","service":"appleConnector"},{"account":"45975138","baseURI":"z2.objectstorage.liveperson.net","service":"swift"},{"account":"45975138","baseURI":"z2.etool.liveperson.net","service":"etool"},{"account":"45975138","baseURI":"lo.le-billing.liveperson.net","service":"leBilling"},{"account":"45975138","baseURI":"lo.pcicompliance.liveperson.net","service":"pciCompliance"},{"account":"45975138","baseURI":"auth-z2.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.wechat-gw.liveperson.net","service":"wechatConnector"},{"account":"45975138","baseURI":"z2.bi.liveperson.net","service":"leBiMstr"},{"account":"45975138","baseURI":"lo.connectorscfg.liveperson.net","service":"connectorsConfig"},{"account":"45975138","baseURI":"lo.cx-reporting.liveperson.net","service":"cxReporting"},{"account":"45975138","baseURI":"lo.***.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.bc-platform.liveperson.net/***.1","service":"cbBotPlatform"},{"account":"45975138","baseURI":"lo.line-gw.liveperson.net","service":"lineConnector"},{"account":"45975138","baseURI":"lo.data-mng.liveperson.net","service":"rtbf"},{"account":"45975138","baseURI":"lo.***.liveperson.net","service":"subscription"},{"account":"45975138","baseURI":"server.lon.liveperson.net","service":"openPlatform"},{"account":"45975138","baseURI":"lo.fms.liveperson.net","service":"fms"},{"account":"45975138","baseURI":"lo.octopus.liveperson.net","service":"leIntegration"},{"account":"45975138","baseURI":"lo.botplatform.liveperson.net","service":"cbWebPlatform"},{"account":"45975138","baseURI":"lo.msghist.liveperson.net","service":"msgHist"},{"account":"45975138","baseURI":"lo.batchelor.liveperson.net","service":"liveEngageVep"},{"account":"45975138","baseURI":"lo.pb-signalprocessor.liveperson.net","service":"pbsignalprocessor"},{"account":"45975138","baseURI":"lo.msg-gw.liveperson.net","service":"facebookConnector"},{"account":"45975138","baseURI":"bot-platform-api.emea.fs.liveperson.com","service":"thirdPartyBots"},{"account":"45975138","baseURI":"lo.socialoperations.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.feedbackchute.int.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.nlp.liveperson.net","service":"nlp"},{"account":"45975138","baseURI":"z2.lpEng.liveperson.net","service":"lpEng"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.ams.liveperson.net","service":"asyncMessaging"},{"account":"45975138","baseURI":"z2.askmaven.liveperson.net","service":"askMaven"},{"account":"45975138","baseURI":"dispatch.look.io","service":"mobileVisit"},{"account":"45975138","baseURI":"lo.bc-intg.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.cbknowledge.liveperson.net/knowledge-0.1","service":"cbKb"},{"account":"45975138","baseURI":"lo.ea.liveperson.net","service":"analyticsStudio"},{"account":"45975138","baseURI":"lo.ihubcrmwdata.liveperson.net","service":"ihubCrmwData"},{"account":"45975138","baseURI":"lo.cbleintegrations.liveperson.net","service":"cbLeIntegrations"},{"account":"45975138","baseURI":"lo.messagerouting.liveperson.net","service":"***"},{"account":"45975138","baseURI":"z2.connection-panel.liveperson.net","service":"connectionPanel"},{"account":"45975138","baseURI":"lo.v.liveperson.net","service":"msdkgw"},{"account":"45975138","baseURI":"lo.agent-activity.liveperson.net","service":"agentActivityDomain"},{"account":"45975138","baseURI":"lo.act.liveperson.net","service":"act"},{"account":"45975138","baseURI":"lo.***.liveperson.net","service":"twitterConnector"},{"account":"45975138","baseURI":"adminlogin.liveperson.net","service":"csdsDomain"},{"account":"45975138","baseURI":"lo.pb-config.liveperson.net","service":"pbconfig"},{"account":"45975138","baseURI":"z2.coapp.liveperson.net","service":"coApp"},{"account":"45975138","baseURI":"lo.cbkaisearch.int.liveperson.net","service":"cbAiSearch"},{"account":"45975138","baseURI":"lo.encryptionmgmt.liveperson.net","service":"***"},{"account":"45975138","baseURI":"z2.bi.liveperson.net","service":"leRBMstr"},{"account":"45975138","baseURI":"lo.promptlibrary.liveperson.net/***","service":"promptlibrary"},{"account":"45975138","baseURI":"lo.cbqualitymetrics.liveperson.net","service":"cbQualityMetrics"},{"account":"45975138","baseURI":"lo.mtls.liveperson.net","service":"mtlsGateway"},{"account":"45975138","baseURI":"lo.secureformconfig.liveperson.net","service":"secureformconfig"},{"account":"45975138","baseURI":"lo.msg.liveperson.net","service":"asyncMessagingEnt"},{"account":"45975138","baseURI":"lo.cbllmgateway.liveperson.net","service":"cbLlmGatewayExt"},{"account":"45975138","baseURI":"lo.nls.liveperson.net","service":"nls"},{"account":"45975138","baseURI":"lo.kai.int.liveperson.net","service":"cbKaiClassification"},{"account":"45975138","baseURI":"lo.facade-msg.liveperson.net","service":"facadeMsg"},{"account":"45975138","baseURI":"lo.cqm-msg.liveperson.net","service":"cqmMsg"},{"account":"45975138","baseURI":"hub.liveperson.net","service":"launchpadDomain"},{"account":"45975138","baseURI":"z2.loggos.liveperson.net","service":"loggos"},{"account":"45975138","baseURI":"z2.acc-create.liveperson.net","service":"accountCreation"},{"account":"45975138","baseURI":"lo.ihubcrmwconfig.liveperson.net","service":"ihubCrmwConfig"},{"account":"45975138","baseURI":"lpcdn.lpsnmedia.net","service":"leCdnDomain"},{"account":"45975138","baseURI":"lo.routingbot.ext.liveperson.net","service":"routingBot"},{"account":"45975138","baseURI":"lo-ges-uconn.liveperson.net","service":"uconnDomain"},{"account":"45975138","baseURI":"lo.v-feed.liveperson.net","service":"visitorFeed"},{"account":"45975138","baseURI":"lo.ihubcrmwexplorer.liveperson.net","service":"ihubCrmwExplorer"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.rfl.liveperson.net","service":"runtimeFormLogic"},{"account":"45975138","baseURI":"lo.leproxy.liveperson.net","service":"leProxyDomain"},{"account":"45975138","baseURI":"accdn.lpsnmedia.net","service":"***"},{"account":"45975138","baseURI":"lo.msg.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.oauthclientmgr.liveperson.net","service":"oauthclientmgr"},{"account":"45975138","baseURI":"lo.sentinel.liveperson.net","service":"sentinel"},{"account":"45975138","baseURI":"lo.ptscoring.int.liveperson.net","service":"***"},{"account":"45975138","baseURI":"z2.acr.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.smmsghistproxy.liveperson.net","service":"socialMsgHistDomain"},{"account":"45975138","baseURI":"z2.mcfeature.liveperson.net","service":"mcfeature"},{"account":"45975138","baseURI":"lo.proactive-onboarder.liveperson.net","service":"proactiveOnboarder"},{"account":"45975138","baseURI":"lo.msg-gw.liveperson.net","service":"smsConnector"},{"account":"45975138","baseURI":"lo.proactivecp.liveperson.net","service":"proactivecp"},{"account":"45975138","baseURI":"lo.***.int.liveperson.net","service":"seldon"},{"account":"45975138","baseURI":"server.lon.liveperson.net","service":"ALL"},{"account":"45975138","baseURI":"accdn.lpsnmedia.net","service":"acCdnDomain"},{"account":"45975138","baseURI":"lo.pb-cbbotengine.liveperson.net","service":"pbcbbotengine"},{"account":"45975138","baseURI":"lo.enghist.liveperson.net","service":"engHistDomain"},{"account":"45975138","baseURI":"lo-ges-usmsgw.liveperson.net","service":"usmsgwDomain"},{"account":"45975138","baseURI":"z2.context.liveperson.net","service":"mavenContext"},{"account":"45975138","baseURI":"lo.userjoin.liveperson.net","service":"coreAIUserjoin"},{"account":"45975138","baseURI":"lo.ootb.liveperson.net","service":"ootb"},{"account":"45975138","baseURI":"lo.register.liveperson.net","service":"provisionGW"},{"account":"45975138","baseURI":"z2.le.liveperson.net","service":"liveEngage"},{"account":"45975138","baseURI":"dispatch.look.io","service":"mobileChat"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.agentmng.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.convep.liveperson.net","service":"conversationVep"},{"account":"45975138","baseURI":"lo.push.liveperson.net","service":"pusher"},{"account":"45975138","baseURI":"lo.auditlog.liveperson.net","service":"auditLog"},{"account":"45975138","baseURI":"http://lp-usmsgw-app.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"server.lon.liveperson.net","service":"agent"},{"account":"45975138","baseURI":"lo.transporter.liveperson.net","service":"transporter"},{"account":"45975138","baseURI":"lo.bc-intg.liveperson.net/r","service":"cbShortenedUrl"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.faasui.liveperson.net","service":"faasUI"},{"account":"45975138","baseURI":"lo.customersde.liveperson.net","service":"customerSDE"},{"account":"45975138","baseURI":"z2.liveper.sn","service":"redirect"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.kakaotalk-gw.liveperson.net","service":"kakaotalkConnector"},{"account":"45975138","baseURI":"lo.***.liveperson.net","service":"bellaInsights"},{"account":"45975138","baseURI":"z2.batchelor.liveperson.net","service":"batchelor"},{"account":"45975138","baseURI":"lo.***.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.intentid.liveperson.net","service":"coreAIIntent"},{"account":"45975138","baseURI":"lo.medalliaadaptor.liveperson.net","service":"ihubMedalliaAdaptor"},{"account":"45975138","baseURI":"lo.content.lpsnmedia.net","service":"staticContent"},{"account":"45975138","baseURI":"lo.cbllmgateway.int.liveperson.net","service":"cbLlmGatewayInt"},{"account":"45975138","baseURI":"mcs.liveperson.net","service":"mcs"},{"account":"45975138","baseURI":"lo.shiftstatus.liveperson.net","service":"shiftstatus"},{"account":"45975138","baseURI":"lo.realtime.liveperson.net","service":"rtDashboard"},{"account":"45975138","baseURI":"lo.tokenizer.liveperson.net","service":"tokenizer"},{"account":"45975138","baseURI":"lo.appmgmtsvc.liveperson.net","service":"appMgmtSvcDomain"},{"account":"45975138","baseURI":"lo.cobrowse.liveperson.net","service":"coBrowse"},{"account":"45975138","baseURI":"lo.bc-mgmt.liveperson.net/***.1","service":"cbMonitoring"},{"account":"45975138","baseURI":"lo.pd.int.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.event-manager.liveperson.net","service":"eventManager"},{"account":"45975138","baseURI":"lo.botauthmigration.int.liveperson.net","service":"botAuthMigration"},{"account":"45975138","baseURI":"lo.ggl-gw.liveperson.net","service":"googleConnector"},{"account":"45975138","baseURI":"lo.3pc-outbound-gw.liveperson.net","service":"3pcOutboundApp"},{"account":"45975138","baseURI":"z2.maven.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.bc-nlu.liveperson.net","service":"cbNluDomain"},{"account":"45975138","baseURI":"lo.handoff.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.pushsrv.int.liveperson.net","service":"pusherInt"},{"account":"45975138","baseURI":"z2.ccs.liveperson.net","service":"ccs"},{"account":"45975138","baseURI":"lo1.agent4matching.liveperson.net","service":"routingMsg"},{"account":"45975138","baseURI":"lo.bc-li.liveperson.net/lp-cb-cms","service":"cbPcsManager"},{"account":"45975138","baseURI":"lo.encryptionmgmt.int.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.agentsmartassist.liveperson.net","service":"agentSmartAssist"},{"account":"45975138","baseURI":"lo.***.liveperson.net","service":"leadGenerator"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.idp.liveperson.net","service":"idp"},{"account":"45975138","baseURI":"lo.logingateway.liveperson.net","service":"logingateway"},{"account":"45975138","baseURI":"lo.aifeedback.int.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.cbfeedback.liveperson.net/lp-cbfeedback-app","service":"cbFeedback"},{"account":"45975138","baseURI":"va.marketplace.liveperson.net","service":"marketplaceDomain"},{"account":"45975138","baseURI":"z2.appkey-mgmnt.liveperson.net","service":"appKeyManagement"},{"account":"45975138","baseURI":"z2.ai-summarization.liveperson.net","service":"aiSummarization"},{"account":"45975138","baseURI":"z2.houston.int.liveperson.net","service":"leBackofficeInt"},{"account":"45975138","baseURI":"lo.ihubshell.liveperson.net","service":"ihubShell"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.smmsgproxy.liveperson.net","service":"socialMsgDomain"},{"account":"45975138","baseURI":"lo.v.liveperson.net","service":"smt"},{"account":"45975138","baseURI":"lo.lp-connector2email.liveperson.net","service":"emailConnector"},{"account":"45975138","baseURI":"empty.liveperson.net","service":"***"},{"account":"45975138","baseURI":"lo.orchestrator.int.liveperson.net","service":"orchestrator"},{"account":"45975138","baseURI":"lo.cbleanalytics.liveperson.net","service":"cbMacsAnalytics"},{"account":"45975138","baseURI":"lo.data.liveperson.net","service":"leDataReporting"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"z2.visitorfeedv2.liveperson.net","service":"visitorFeedV2"},{"account":"45975138","baseURI":"lo.lp-rollover.liveperson.net","service":"rollover"},{"account":"45975138","baseURI":"lo.bc-bot.liveperson.net/botservice-0.1","service":"cbBotService"},{"account":"45975138","baseURI":"lp-gai-tgi.europe-west1.prod.int.gw.lpcloud.io","service":"mlInference"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.cbnlufacade.liveperson.net","service":"cbNluFacade"},{"account":"45975138","baseURI":"lo.vm.liveperson.net","service":"visitManager"},{"account":"45975138","baseURI":"lo.whatsapp-gw.liveperson.net","service":"whatsappConnector"},{"account":"45975138","baseURI":"lo.automationlookup.int.liveperson.net","service":"coreAIAutomation"},{"account":"45975138","baseURI":"lo.cbnluibc.liveperson.net","service":"cbIbc"},{"account":"45975138","baseURI":"server.lon.liveperson.net","service":"adminArea"},{"account":"45975138","baseURI":"lo.agentvep.liveperson.net","service":"agentVep"},{"account":"45975138","baseURI":"lo.faasgw.liveperson.net","service":"faasGW"},{"account":"45975138","baseURI":"lo.orchestratorext.liveperson.net","service":"orchestratorext"},{"account":"45975138","baseURI":"lo.accountinfo.int.liveperson.net","service":"accountInfo"},{"account":"45975138","baseURI":"lo.odin.liveperson.net","service":"odinDomain"},{"account":"45975138","baseURI":"accdn.lpsnmedia.net","service":"***"},{"account":"45975138","baseURI":"http://***.plteng-connectors:8080","service":"***"},{"account":"45975138","baseURI":"lo.lp-msgewt.liveperson.net","service":"msgEwtAPI"}]}
+2025-12-16 10:05:28.250 [SDK] 2025-12-16 10:05:27.SSS [D] [LptagRequest] onSuccess: Received Features json. Parse and return
+2025-12-16 10:05:28.250 [SDK] 2025-12-16 10:05:27.SSS [D] [LptagTask] onSuccess: Got AutoMessages feature: false
+2025-12-16 10:05:28.250 [SDK] 2025-12-16 10:05:27.SSS [D] [***::LOGIN_FLOW] LptagTask: task time = 977 millis
+2025-12-16 10:05:28.250 [SDK] 2025-12-16 10:05:27.SSS [D] [ConcurrentTasks] Finished executing task: LptagTask
+2025-12-16 10:05:28.251 [SDK] 2025-12-16 10:05:28.SSS [I] [HttpHandler] onResponse from URL: https://lo.idp.liveperson.net/api/account/45975138/anonymous/authorize
+2025-12-16 10:05:28.251 [SDK] 2025-12-16 10:05:28.SSS [D] [***] ended span has id = 1b6370cbf1075212
+2025-12-16 10:05:28.251 [SDK] 2025-12-16 10:05:28.SSS [I] [HttpRequest] onSuccess! 200
+2025-12-16 10:05:28.251 [SDK] 2025-12-16 10:05:28.SSS [D] [AuthRequest] onSuccess ********
+2025-12-16 10:05:28.251 [SDK] 2025-12-16 10:05:28.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:28.251 [SDK] 2025-12-16 10:05:28.SSS [V] [DBEncryptionService] Successfully Encrypted block ********
+2025-12-16 10:05:28.251 [SDK] 2025-12-16 10:05:28.SSS [D] [DBEncryptionService] decrypt() cnDlb8s19cnyU2v7
+::***/***
+dCzE7z9W0X+***
+***
+***
+T6xqv0mX9XWnQSZ+***
+***/***
+***/***
+txFG1LF/***+6otuiUZFVILLDv9W4
++rV2tfZ4pd7pz4Qu+***/***
+***
+Hiw7zb5r40ecHc/+2cCjqm+I6Q44p7/***/Jvxx6ZjnvIfHtXaU
+***+eCqwkskpD9C3mg==
+2025-12-16 10:05:28.252 [SDK] 2025-12-16 10:05:28.SSS [V] [DBEncryptionService] Successfully Decrypted ********
+2025-12-16 10:05:28.252 [SDK] 2025-12-16 10:05:28.SSS [D] [AuthRequest] sendGeneralRequest: IDP request url : https://lo.idp.liveperson.net/api/account/45975138/app/8295599055/authenticate?v=3.0
+2025-12-16 10:05:28.252 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first User-Agent header.second ANDROID
+2025-12-16 10:05:28.252 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first sdkVersion header.second 5.25.1
+2025-12-16 10:05:28.252 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first platform header.second Android
+2025-12-16 10:05:28.253 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first platformVer header.second 36
+2025-12-16 10:05:28.253 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first device header.second sdk_gphone64_x86_64
+2025-12-16 10:05:28.253 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first applicationId header.second 45975138
+2025-12-16 10:05:28.253 [SDK] 2025-12-16 10:05:28.SSS [I] [HttpHandler] URL: lo.idp.liveperson.net
+2025-12-16 10:05:28.253 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] Sending http request: https://lo.idp.liveperson.net/api/account/45975138/app/8295599055/authenticate?v=3.0 with no Pinning Keys
+2025-12-16 10:05:28.253 [SDK] 2025-12-16 10:05:28.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 10:05:28.253 [SDK] 2025-12-16 10:05:28.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 10:05:28.253 [SDK] 2025-12-16 10:05:28.SSS [D] [***] begin span has id = ace51acc4a19db35
+2025-12-16 10:05:28.253 [SDK] 2025-12-16 10:05:28.SSS [D] [OkHttpClientHolder] Pinning keys are the same. Skipping building new client.
+2025-12-16 10:05:28.254 [SDK] 2025-12-16 10:05:28.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:28.254 [SDK] 2025-12-16 10:05:28.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 19
+2025-12-16 10:05:29.017 [SDK] 2025-12-16 10:05:29.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:29.017 [SDK] 2025-12-16 10:05:29.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 20
+2025-12-16 10:05:29.773 [SDK] 2025-12-16 10:05:29.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 21
+2025-12-16 10:05:30.196 [INFO] [5s] Active conversation: false
+2025-12-16 10:05:30.196 [INFO] Stopped SDK log polling
+2025-12-16 10:05:30.197 [OK] DNS OK: lo.idp.liveperson.net (1ms)
+2025-12-16 10:05:30.206 [INFO] === LivePerson SDK log snapshot (VERBOSE) ===
+2025-12-16 10:05:30.207 [SDK] 2025-12-16 10:05:28.SSS [I] [HttpRequest] onSuccess! 200
+2025-12-16 10:05:30.207 [SDK] 2025-12-16 10:05:28.SSS [D] [AuthRequest] onSuccess ********
+2025-12-16 10:05:30.207 [SDK] 2025-12-16 10:05:28.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.207 [SDK] 2025-12-16 10:05:28.SSS [V] [DBEncryptionService] Successfully Encrypted block ********
+2025-12-16 10:05:30.208 [SDK] 2025-12-16 10:05:28.SSS [D] [DBEncryptionService] decrypt() cnDlb8s19cnyU2v7
+2025-12-16 10:05:30.209 [SDK] ::***/***
+2025-12-16 10:05:30.209 [SDK] dCzE7z9W0X+***
+2025-12-16 10:05:30.209 [SDK] ***
+2025-12-16 10:05:30.209 [SDK] ***
+2025-12-16 10:05:30.209 [SDK] T6xqv0mX9XWnQSZ+***
+2025-12-16 10:05:30.209 [SDK] ***/***
+2025-12-16 10:05:30.210 [SDK] ***/***
+2025-12-16 10:05:30.210 [SDK] txFG1LF/***+6otuiUZFVILLDv9W4
+2025-12-16 10:05:30.210 [SDK] +rV2tfZ4pd7pz4Qu+***/***
+2025-12-16 10:05:30.210 [SDK] ***
+2025-12-16 10:05:30.210 [SDK] Hiw7zb5r40ecHc/+2cCjqm+I6Q44p7/***/Jvxx6ZjnvIfHtXaU
+2025-12-16 10:05:30.210 [SDK] ***+eCqwkskpD9C3mg==
+2025-12-16 10:05:30.210 [SDK] 2025-12-16 10:05:28.SSS [V] [DBEncryptionService] Successfully Decrypted ********
+2025-12-16 10:05:30.210 [SDK] 2025-12-16 10:05:28.SSS [D] [AuthRequest] sendGeneralRequest: IDP request url : https://lo.idp.liveperson.net/api/account/45975138/app/8295599055/authenticate?v=3.0
+2025-12-16 10:05:30.210 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first User-Agent header.second ANDROID
+2025-12-16 10:05:30.211 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first sdkVersion header.second 5.25.1
+2025-12-16 10:05:30.211 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first platform header.second Android
+2025-12-16 10:05:30.211 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first platformVer header.second 36
+2025-12-16 10:05:30.211 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first device header.second sdk_gphone64_x86_64
+2025-12-16 10:05:30.211 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] header.first applicationId header.second 45975138
+2025-12-16 10:05:30.211 [SDK] 2025-12-16 10:05:28.SSS [I] [HttpHandler] URL: lo.idp.liveperson.net
+2025-12-16 10:05:30.212 [SDK] 2025-12-16 10:05:28.SSS [D] [HttpHandler] Sending http request: https://lo.idp.liveperson.net/api/account/45975138/app/8295599055/authenticate?v=3.0 with no Pinning Keys
+2025-12-16 10:05:30.212 [SDK] 2025-12-16 10:05:28.SSS [D] [***] isNetworkAvailable: isConnected = true
+2025-12-16 10:05:30.212 [SDK] 2025-12-16 10:05:28.SSS [D] [***] isNetworkAvailable: networkInfo = [type: WIFI[], state: CONNECTED/CONNECTED, reason: (unspecified), extra: , failover: false, available: true, roaming: false]
+2025-12-16 10:05:30.212 [SDK] 2025-12-16 10:05:28.SSS [D] [***] begin span has id = ace51acc4a19db35
+2025-12-16 10:05:30.212 [SDK] 2025-12-16 10:05:28.SSS [D] [OkHttpClientHolder] Pinning keys are the same. Skipping building new client.
+2025-12-16 10:05:30.212 [SDK] 2025-12-16 10:05:28.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:30.212 [SDK] 2025-12-16 10:05:28.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 19
+2025-12-16 10:05:30.213 [SDK] 2025-12-16 10:05:29.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:30.213 [SDK] 2025-12-16 10:05:29.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 20
+2025-12-16 10:05:30.213 [SDK] 2025-12-16 10:05:29.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:30.213 [SDK] 2025-12-16 10:05:29.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 21
+2025-12-16 10:05:30.213 [SDK] 2025-12-16 10:05:30.SSS [I] [HttpHandler] onResponse from URL: https://lo.idp.liveperson.net/api/account/45975138/app/8295599055/authenticate?v=3.0
+2025-12-16 10:05:30.214 [SDK] 2025-12-16 10:05:30.SSS [D] [***] ended span has id = ace51acc4a19db35
+2025-12-16 10:05:30.214 [SDK] 2025-12-16 10:05:30.SSS [I] [HttpRequest] onSuccess! 200
+2025-12-16 10:05:30.214 [SDK] 2025-12-16 10:05:30.SSS [D] [AuthRequest] onSuccess ********
+2025-12-16 10:05:30.214 [SDK] 2025-12-16 10:05:30.SSS [D] [TokenUtils::LOGIN_FLOW] getConsumerUserId: Getting original consumerId from jwt: ********
+2025-12-16 10:05:30.214 [SDK] 2025-12-16 10:05:30.SSS [D] [TokenUtils::LOGIN_FLOW] Getting original consumerId from jwt: ********
+2025-12-16 10:05:30.214 [SDK] 2025-12-16 10:05:30.SSS [D] [AuthRequest] handleSuccess: Extracted consumerId: ********
+2025-12-16 10:05:30.215 [SDK] 2025-12-16 10:05:30.SSS [I] [ConsumerManager] Successfully logged in ********
+2025-12-16 10:05:30.215 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.215 [SDK] 2025-12-16 10:05:30.SSS [V] [DBEncryptionService] Successfully Encrypted block ********
+2025-12-16 10:05:30.215 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.215 [SDK] 2025-12-16 10:05:30.SSS [V] [DBEncryptionService] Successfully Encrypted block ********
+2025-12-16 10:05:30.215 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.215 [SDK] 2025-12-16 10:05:30.SSS [V] [DBEncryptionService] Successfully Encrypted block ********
+2025-12-16 10:05:30.215 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.216 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.216 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.216 [SDK] 2025-12-16 10:05:30.SSS [D] [LogPreferences] Return logs from preferences
+2025-12-16 10:05:30.216 [SDK] 2025-12-16 10:05:30.SSS [I] [EventManagerService] ***: No logs found in cache.
+2025-12-16 10:05:30.216 [SDK] 2025-12-16 10:05:30.SSS [D] [IdpTask] onAuthSuccess: Consumer: ********
+2025-12-16 10:05:30.216 [SDK] 2025-12-16 10:05:30.SSS [D] [AmsUsers] Empty or new Consumer ID - Adding consumer Id ******** for brand 45975138
+2025-12-16 10:05:30.216 [SDK] 2025-12-16 10:05:30.SSS [D] [***::LOGIN_FLOW] IdpTask: task time = 3664 millis
+2025-12-16 10:05:30.216 [SDK] 2025-12-16 10:05:30.SSS [D] [ConcurrentTasks] Finished executing task: IdpTask
+2025-12-16 10:05:30.217 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.217 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.217 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.217 [SDK] 2025-12-16 10:05:30.SSS [D] [***::LOGIN_FLOW] ConcurrentTasks: task time = 3665 millis
+2025-12-16 10:05:30.217 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.217 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.217 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.217 [SDK] 2025-12-16 10:05:30.SSS [D] [DBEncryptionService] encrypt()
+2025-12-16 10:05:30.218 [SDK] 2025-12-16 10:05:30.SSS [D] [***] ConnectingState <-<- TaskSuccessEvent
+2025-12-16 10:05:30.218 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Task ConcurrentTasks finished successfully
+2025-12-16 10:05:30.218 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Running next task...
+2025-12-16 10:05:30.218 [SDK] 2025-12-16 10:05:30.SSS [D] [***] ConnectingState <-<- RunTaskEvent #4
+2025-12-16 10:05:30.218 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Running task: GetPendingPRMSGTask Retry #0, After delay: 0
+2025-12-16 10:05:30.218 [SDK] 2025-12-16 10:05:30.SSS [D] [GetPendingPRMSGTask] Running GetPendingPRMSGTask task...
+2025-12-16 10:05:30.218 [SDK] 2025-12-16 10:05:30.SSS [D] [GetPendingPRMSGTask] Not sending request to get pending prmsg
+2025-12-16 10:05:30.219 [SDK] 2025-12-16 10:05:30.SSS [D] [***] ConnectingState <-<- TaskSuccessEvent
+2025-12-16 10:05:30.219 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Task GetPendingPRMSGTask finished successfully
+2025-12-16 10:05:30.219 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Running next task...
+2025-12-16 10:05:30.219 [SDK] 2025-12-16 10:05:30.SSS [D] [***] ConnectingState <-<- RunTaskEvent #5
+2025-12-16 10:05:30.219 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Running task: OpenSocketTask Retry #0, After delay: 0
+2025-12-16 10:05:30.219 [SDK] 2025-12-16 10:05:30.SSS [D] [OpenSocketTask] Running open socket task. url = wss://lo.msg.liveperson.net/ws_api/account/45975138/messaging/consumer?v=3
+2025-12-16 10:05:30.219 [SDK] 2025-12-16 10:05:30.SSS [D] [***] begin span has id = 6d8f611ade5a5265
+2025-12-16 10:05:30.220 [SDK] 2025-12-16 10:05:30.SSS [D] [AmsConnection::LOGIN_FLOW] Register socket for brand 45975138, connectionUrl = wss://lo.msg.liveperson.net/ws_api/account/45975138/messaging/consumer
+2025-12-16 10:05:30.220 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Accessibility: first visible: -1 last visible -1 unread position -1 last adapter position -1
+2025-12-16 10:05:30.220 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketHandler] onStateChanged newState INIT
+2025-12-16 10:05:30.220 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Accessibility: ***: true *** true
+2025-12-16 10:05:30.220 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketStateManager] Request state and current state are equal
+2025-12-16 10:05:30.220 [SDK] 2025-12-16 10:05:30.SSS [I] [SocketStateManager] register SocketStateListener 207858514
+2025-12-16 10:05:30.220 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Accessibility: first visible: -1 last visible -1 unread position -1 last adapter position -1
+2025-12-16 10:05:30.220 [SDK] 2025-12-16 10:05:30.SSS [D] [***] Accessibility: ***: true *** true
+2025-12-16 10:05:30.221 [SDK] 2025-12-16 10:05:30.SSS [D] [OpenSocketTask] execute: connectionParams headers: {Authorization=jwt ***.***.***, Client-Properties={"appId":"com.mybrand.livepersondemo","appVersion":"1.0","deviceFamily":"MOBILE","os":"ANDROID","osName":"Unsupported version","osVersion":"36","deviceModel":"sdk_gphone64_x86_64","deviceManufacture":"Google","integration":"MOBILE_SDK","integrationVersion":"5.25.1","type":".ClientProperties","features":["PHOTO_SHARING","CO_APP","RICH_CONTENT","SECURE_FORMS","AUTO_MESSAGES","QUICK_REPLIES","MULTI_DIALOG","***","FILE_SHARING","MARKDOWN_HYPERLINKS"],"timeZone":"GMT"}}
+2025-12-16 10:05:30.221 [SDK] 2025-12-16 10:05:30.SSS [I] [SocketManager] connecting to socket
+2025-12-16 10:05:30.221 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketStateManager] getState
+2025-12-16 10:05:30.221 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketHandler] handleConnect with state INIT.
+2025-12-16 10:05:30.221 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketHandler] openConnection
+2025-12-16 10:05:30.221 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketHandler] onStateChanged newState INIT
+2025-12-16 10:05:30.221 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketStateManager] Request state and current state are equal
+2025-12-16 10:05:30.222 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketWrapperOK] Socket connecting.... with Pinning Keys
+2025-12-16 10:05:30.222 [SDK] 2025-12-16 10:05:30.SSS [D] [AmsMessages] Loading 25 messages by TargetId
+2025-12-16 10:05:30.222 [SDK] 2025-12-16 10:05:30.SSS [I] [AmsMessages] History control API params:
+2025-12-16 10:05:30.222 [SDK] ***: ALL
+2025-12-16 10:05:30.222 [SDK] ***: ***
+2025-12-16 10:05:30.222 [SDK] ***: -1
+2025-12-16 10:05:30.222 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketHandler] onStateChanged newState CONNECTING
+2025-12-16 10:05:30.222 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketStateManager] new socket state CONNECTING
+2025-12-16 10:05:30.223 [SDK] 2025-12-16 10:05:30.SSS [D] [SocketStateManager] Calling listener com.liveperson.messaging.model.AmsConnection$AmsSocketState@c63ab52 new socket state CONNECTING
+2025-12-16 10:05:30.223 [SDK] 2025-12-16 10:05:30.SSS [I] [AmsConnection::LOGIN_FLOW] onStateChanged with state CONNECTING
+2025-12-16 10:05:30.223 [SDK] 2025-12-16 10:05:30.SSS [D] [***] initMessages num of items:size = 0
+2025-12-16 10:05:30.223 [SDK] 2025-12-16 10:05:30.SSS [D] [***] *** - filterOn = false, updated = false
+2025-12-16 10:05:30.223 [SDK] 2025-12-16 10:05:30.SSS [I] [LivePerson] Checking for Open Conversations
+2025-12-16 10:05:30.223 [SDK] 2025-12-16 10:05:30.SSS [D] [LivePerson] isInitialized = true
+2025-12-16 10:05:30.223 [SDK] 2025-12-16 10:05:30.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:30.224 [SDK] 2025-12-16 10:05:30.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 22
+2025-12-16 10:05:30.224 [SDK] 2025-12-16 10:05:30.SSS [D] [AnalyticsService] logUserEvent: Adding user event *** into the list.
+2025-12-16 10:05:30.224 [SDK] 2025-12-16 10:05:30.SSS [D] [AnalyticsService] logUserEvent: Total events cached: 23
+2025-12-16 10:05:30.224 [INFO] === End LivePerson SDK log snapshot ===
+2025-12-16 10:05:30.224 [INFO] === Test finished ===

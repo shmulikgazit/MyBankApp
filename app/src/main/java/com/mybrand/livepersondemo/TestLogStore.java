@@ -21,7 +21,8 @@ import java.util.regex.Pattern;
  */
 public final class TestLogStore {
     private static final String FILE_NAME = "lp_test_log.txt";
-    private static final int MAX_BYTES = 200_000; // ~200KB
+    // Increased to keep more SDK snapshot history when exporting VERBOSE logs.
+    private static final int MAX_BYTES = 1_000_000; // ~1MB
     private static final SimpleDateFormat TS = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS", Locale.US);
 
     // Mask common query params and long token-ish strings
