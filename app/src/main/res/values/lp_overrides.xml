@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Override LivePerson SDK drawables here -->
+    <drawable name="lp_messaging_ui_ic_bot_avatar">@drawable/ic_launcher_foreground</drawable>
+</resources>
