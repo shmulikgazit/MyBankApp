@@ -1,26 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App Info -->
-    <string name="app_name">LivePerson Demo</string>
+    <string name="app_name">LP Test Override</string>
     <string name="app_title">LivePerson Android SDK Demo</string>
-    <string name="app_description">This demo app shows how to integrate LivePerson messaging into your Android application using unauthenticated conversations.</string>
-    
-    <!-- Button Labels -->
-    <string name="start_conversation">Start Conversation</string>
+    <string name="app_description">This demo app shows how to integrate LivePerson messaging with both visitor (unauthenticated) and signed-in (authenticated) conversations.</string>
+
+    <string name="start_unauth_conversation">Start unauthenticated conversation</string>
+    <string name="start_auth_conversation">Start authenticated conversation (Okta)</string>
     <string name="initializing">Initializing...</string>
-    
-    <!-- Info Text -->
-    <string name="demo_info">Tap the button above to start a demo conversation with LivePerson. This uses an unauthenticated flow perfect for testing and learning.</string>
+
+    <string name="demo_info">Use the first button for a visitor (UN_AUTH) chat. Use the second for AUTH after Okta sign-in (configure Client ID and issuer in Settings).</string>
     <string name="version_info">Demo App v1.0 - LivePerson SDK</string>
-    
-    <!-- Content Descriptions for Accessibility -->
+
     <string name="chat_icon_description">Chat icon representing messaging functionality</string>
-    
-    <!-- Error Messages -->
+
     <string name="initialization_error">Failed to initialize LivePerson SDK</string>
     <string name="conversation_error">Failed to start conversation</string>
-    
-    <!-- LivePerson Related -->
+
+    <string name="okta_invalid_client_help">Okta token error (invalid_client): In Okta Admin, use an OIDC application type Native (or SPA with PKCE), not Web. Web apps expect a client secret; this app cannot send one. Ensure the Client ID is from that app, grant type includes Authorization Code, and the Sign-in redirect URI matches Settings (including exact spelling).</string>
+    <string name="okta_settings_native_app_hint">Okta: use a Web application when LivePerson IdP sends client_secret at /token; enable PKCE on authorize. Same Client ID in this app and LP connector. Native-only apps conflict with LP secret.</string>
+    <string name="token_exchange_failed_generic">Token exchange failed. Check Logcat for details.</string>
+
     <string name="brand_id">53949244</string>
     <string name="app_install_id">46bcf782-feee-490d-861d-2b5feb4437c8</string>
 </resources>

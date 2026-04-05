@@ -1,58 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
-    android:paddingTop="56dp"
-    android:fitsSystemWindows="true">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Brand ID" />
-
-    <EditText
-        android:id="@+id/edit_brand_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:hint="e.g. 45975138" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="12dp"
-        android:text="App Install ID" />
-
-    <EditText
-        android:id="@+id/edit_app_install_id"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text"
-        android:hint="UUID from LP Console" />
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="end"
-        android:layout_marginTop="24dp">
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:paddingTop="56dp">
 
-        <Button
-            android:id="@+id/btn_cancel"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Cancel" />
+            android:text="Brand ID"
+            android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/btn_save"
+        <EditText
+            android:id="@+id/edit_brand_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="e.g. 45975138"
+            android:inputType="number" />
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Save"
-            android:layout_marginStart="12dp" />
+            android:layout_marginTop="12dp"
+            android:text="App Install ID"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_app_install_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="UUID from LP Console"
+            android:inputType="text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Okta OIDC issuer URL"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_issuer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="https://trial-xxxx.okta.com/oauth2/default"
+            android:inputType="textUri" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Okta Client ID (same Web app as LP IdP connector)"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_okta_client_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="From Okta (e.g. 0oa...)"
+            android:inputType="text"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="?android:attr/textColorSecondary"
+            android:text="@string/okta_settings_native_app_hint" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="LivePerson IdP display name (optional)"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_idp_display_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Exact name from LP connector / Multiple IdPs"
+            android:inputType="text"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Redirect URI"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edit_redirect_uri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="com.mybrand.livepersondemo://callback"
+            android:inputType="textUri" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cancel" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="12dp"
+                android:text="Save" />
+        </LinearLayout>
+
     </LinearLayout>
-
-</LinearLayout>
-
-
+</ScrollView>

@@ -2,6 +2,8 @@
 
 Goal: Start a conversation without Monitoring by authenticating.
 
+**Production Okta + PKCE + LivePerson:** see [`docs/GUIDE_OKTA_PKCE_LIVEPERSON_ANDROID.md`](../docs/GUIDE_OKTA_PKCE_LIVEPERSON_ANDROID.md).
+
 ## Steps
 1) In `MainActivity.java`, find where we build `LPAuthenticationParams`.
 2) Change:

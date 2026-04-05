@@ -112,12 +112,12 @@ MyBankApp/
 
 ## 📚 LivePerson SDK Integration Details
 
-### Authentication Type
-This app uses **unauthenticated conversations** which are perfect for:
-- Demo applications
-- Guest users
-- Getting started with LivePerson
-- Learning and testing
+### Authentication in this project
+
+- **Unauthenticated (visitor):** `UN_AUTH` + Monitoring for demos.
+- **Authenticated (Okta):** Browser **authorize** with PKCE via AppAuth; app passes **code + `code_verifier`** from `LivePerson.getPKCEParams` to the SDK; **LivePerson IdP** exchanges the code with Okta (typically **Web** app + **client_secret** on `/token`). The app does **not** call Okta `/token`.
+
+**Full setup guide:** [`docs/GUIDE_OKTA_PKCE_LIVEPERSON_ANDROID.md`](docs/GUIDE_OKTA_PKCE_LIVEPERSON_ANDROID.md)
 
 ### Key Integration Points
 
